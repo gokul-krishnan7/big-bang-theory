@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  font-family: 'Russo One', sans-serif;
+  background-color: #101010; /* Dark background for Big Bang Theory theme */
+  color: #fff; /* Text color to match the dark theme */
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a slight padding to the game container */
+.container-fluid {
+  padding: 20px;
+}
+
+/* Game Rules Styling */
+.game-rules {
+  background-color: #222; /* Dark grey background for the rules */
+  color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.rules-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffeb3b; /* Yellow for the Big Bang Theory theme */
+}
+
+.rules-text ol {
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.rules-text li {
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Highlight rule when selected or correct in game */
+.highlight-rule {
+  background-color: #ffeb3b;
+  color: #222;
+}
+
+/* Game Section Styling */
+.game-section {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffeb3b; /* Yellow for the Big Bang Theory theme */
+}
+
+.choice {
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.choice img {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.result p {
+  display: block;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+/* Button Colors */
+#rock {
+  background-color: #007bff;
+}
+
+#paper {
+  background-color: #dc3545;
+}
+
+#scissors {
+  background-color: #ffc107;
+}
+
+#lizard {
+  background-color: #28a745;
+}
+
+#spock {
+  background-color: #6c757d;
+}
+
+.img-fluid{
+  width: 70%;
+  margin-bottom: 20px;
+}
